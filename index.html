@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Sales & Services Company</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+<header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="https://cdn.discordapp.com/attachments/1336166371133882453/1353558219435409512/891627F4-F762-4556-9B66-DF19EE04FD28.png?ex=67e216d3&is=67e0c553&hm=62c26cb45b00f425d3c3e534891d47a962af33d68a9f8a6d739def8d3d8e945f&" class="rounded-pill" alt="Company Logo" class="mr-2" style="max-width: 70px; margin-right: 20px;">
+            <h1 class="mb-0 h4 h-md-1 text-white">Penguin Sales & Services</h1>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#bridal-cars">Bridal Car Services</a>
+                        <a class="dropdown-item" href="#towing-services">Towing Services 24/7</a>
+                        <a class="dropdown-item" href="#trucking-services">Trucking Services</a>
+                        <a class="dropdown-item" href="#heavy-equipment-rental">Heavy Equipment Rental</a>
+                        <a class="dropdown-item" href="#general-construction">General Construction & Maintenance Services</a>
+                    </div>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#furniture-hotel-residential">Furniture Hotel & Residential</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#auto-parts">Auto Parts</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#contact-section">Contact Us</a>
+                </li>
+            </ul>
+            
+            <form class="form-inline ml-3" action="#" method="GET" id="search-form">
+                <div class="input-group">
+                    <input type="text" id="search-query" class="form-control mr-2" placeholder="Search services..." aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-light" type="submit" aria-label="Search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</header>
+
+
+<section class="hero-section position-relative">
+    <div class="hero-overlay position-absolute w-100 h-100" style="background: linear-gradient(to bottom, rgba(223, 208, 208, 0.7), rgba(0,0,0,0.3));"></div>
+    <div class="container position-relative min-vh-100 d-flex align-items-center">
+        <div class="row">
+            <div class="col-lg-8 text-white">
+                <h1 class="display-3 font-weight-bold mb-4">Services for All Your Needs</h1>
+                <p class="lead mb-5 font-weight-bold">From bridal cars to heavy equipment rental, we provide comprehensive solutions with excellence and reliability.</p>
+                <a href="#contact-section" class="btn btn-primary btn-lg">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="bridal-cars" class="py-5" style="background-color: #e2e0e0;">
+    <div class="container">
+        <h2 class="text-center mb-4 text-dark font-weight-bold" style="font-family: 'Georgia', serif; font-size: 36px; letter-spacing: 2px; text-transform: uppercase;">Bridal Car Services</h2>
+        <p class="text-center mb-5 text-dark" style="font-family: 'Arial', sans-serif; font-size: 18px; line-height: 1.8; max-width: 800px; margin-left: auto; margin-right: auto; color: #555;">
+            Our luxurious bridal car fleet ensures that your special day is unforgettable. Choose from a variety of elegant vehicles to make your day even more extraordinary. From classic Rolls Royce to modern luxury cars, we have the perfect choice for every bride.
+        </p>
+        
+        <div id="bridalCarCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://c1.wallpaperflare.com/preview/666/56/974/rolls-royce-rolls-royce-auto.jpg" class="d-block w-100" alt="Bridal Car 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://c1.wallpaperflare.com/preview/134/74/399/oldtimer-wedding-marry-romantic.jpg" class="d-block w-100" alt="Bridal Car 2">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#bridalCarCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#bridalCarCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="towing-services" class="py-5" style="background-color: #343a40;">
+    <div class="container">
+        <h2 class="text-center mb-4 text-white font-weight-bold" style="font-family: 'Georgia', serif; font-size: 36px; letter-spacing: 2px; text-transform: uppercase;">Towing Services 24/7</h2>
+        <p class="text-center mb-5 text-white" style="font-family: 'Arial', sans-serif; font-size: 18px; line-height: 1.8; max-width: 800px; margin-left: auto; margin-right: auto; color: #ccc;">
+            We provide reliable towing services available 24/7. Whether it's a flat tire, breakdown, or accident, we are here to get you back on the road quickly. Our fleet is equipped to handle all types of vehicles with the utmost care.
+        </p>
+        
+        <div id="towingCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://c0.wallpaperflare.com/preview/463/498/459/car-black-tow-truck.jpg" class="d-block w-100" alt="Towing Car 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://t4.ftcdn.net/jpg/01/28/37/61/360_F_128376104_gLWylQDT4f3L0Z5InR08rToRJfbbXtD4.jpg" class="d-block w-100" alt="Towing Car 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media.gettyimages.com/id/1421938947/video/tow-truck-transportation-4k-resolution.jpg?s=640x640&k=20&c=pL6iD5s8ze0_Zl0yUeDPgmGWfNzHcwbEKcSFk3otExw=" class="d-block w-100" alt="Towing Car 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#towingCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#towingCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="trucking-services" class="py-5" style="background-color:  #e2e0e0;">
+    <div class="container">
+        <h2 class="text-center mb-4 text-dark font-weight-bold" style="font-family: 'Georgia', serif; font-size: 36px; letter-spacing: 2px; text-transform: uppercase;">Trucking Services</h2>
+        <p class="text-center mb-5 text-dark" style="font-family: 'Arial', sans-serif; font-size: 18px; line-height: 1.8; max-width: 800px; margin-left: auto; margin-right: auto; color: #343a40;">
+            Our trucking services are available to transport goods, materials, and more. We handle all your logistics needs with precision and care. From short deliveries to long-distance hauls, our team ensures everything reaches its destination on time.
+        </p>
+        
+        <div id="truckingCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/47/510/563/road-speed-truckers-trucks-wallpaper-preview.jpg" class="d-block w-100" alt="Trucking Service 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://w0.peakpx.com/wallpaper/100/667/HD-wallpaper-flatbed-freight-shipping-trucking-service-wicker-park-logistics.jpg" class="d-block w-100" alt="Trucking Service 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/736x/cb/da/28/cbda28760ef2fe7bb593ddf8c4588e7b.jpg" class="d-block w-100" alt="Trucking Service 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#truckingCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#truckingCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="heavy-equipment-rental" class="py-5" style="background-color: #343a40;">
+    <div class="container">
+        <h2 class="text-center mb-4 text-white font-weight-bold" style="font-family: 'Georgia', serif; font-size: 36px; letter-spacing: 2px; text-transform: uppercase;">Heavy Equipment Rental</h2>
+        <p class="text-center mb-5 text-white" style="font-family: 'Arial', sans-serif; font-size: 18px; line-height: 1.8; max-width: 800px; margin-left: auto; margin-right: auto; color: #9d9797;">
+            Rent high-quality heavy equipment for your construction, mining, or industrial needs. We offer a wide range of machines for every project. From cranes to excavators, we have the equipment to ensure your project is completed on time and with maximum efficiency.
+        </p>
+        
+        <div id="equipmentCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://media.istockphoto.com/id/504073608/photo/excavator-loading-dumper-truck-on-mining-site.jpg?s=612x612&w=0&k=20&c=LNlaIHeyhXmrHN0s2FEsP4QZkJ56VIqMhqDp-mF0JwE=" class="d-block w-100" alt="Heavy Equipment 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.wixstatic.com/media/8de90e_1b618f80ed18412b82c89246ec6cb46b~mv2.jpg/v1/fill/w_560,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/8de90e_1b618f80ed18412b82c89246ec6cb46b~mv2.jpg" class="d-block w-100" alt="Heavy Equipment 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://s7d2.scene7.com/is/image/Caterpillar/CM20230414-b28b0-86f10" class="d-block w-100" alt="Heavy Equipment 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#equipmentCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#equipmentCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section id="general-construction" class="py-5" style="background-color: #e2e0e0;">
+    <div class="container">
+        <h2 class="text-center mb-4 text-dark font-weight-bold" style="font-family: 'Georgia', serif; font-size: 36px; letter-spacing: 2px; text-transform: uppercase;">
+            General Construction & Maintenance Services
+        </h2>
+        <p class="text-center mb-5 text-dark" style="font-family: 'Arial', sans-serif; font-size: 18px; line-height: 1.8; max-width: 800px; margin-left: auto; margin-right: auto; color: #343a40;">
+            Our expert team specializes in providing high-quality general construction and maintenance services. Whether you need residential or commercial building solutions, we offer reliable, cost-effective options to meet your needs. From new construction to remodeling and routine maintenance, we ensure your property is in top condition.
+        </p>
+        
+        <div id="constructionCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://media.istockphoto.com/id/1963889323/photo/worker-and-engineer-using-tablet-computer-for-inspection-and-checking-production-process-on.jpg?s=612x612&w=0&k=20&c=fkmU9qC9UtTe5wyUFbbi3FWXgPq7CMfH53jO06tVkNs=" class="d-block w-100" alt="Construction Project 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media.istockphoto.com/id/1130699387/photo/engineer-people-meeting-working-and-pointing-at-a-drawings-in-office-for-discussing.jpg?s=612x612&w=0&k=20&c=7Hs_dpFg7j2gR0kxFaC435GdRhV5EhgM5YRfCB9Nks4=" class="d-block w-100" alt="Construction Project 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media.istockphoto.com/id/486964760/photo/townhomes-under-construction.jpg?s=612x612&w=0&k=20&c=NWqqifqo1zYGAxkEgYyyI3lT1bE83_amHbH3LfsuB4c=" class="d-block w-100" alt="Construction Project 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://c0.wallpaperflare.com/preview/707/775/626/repair-maintenance-construction-service.jpg" class="d-block w-100" alt="Construction Project 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2ZsNTAyNzk3MTUzODItaW1hZ2UuanBn.jpg" class="d-block w-100" alt="Construction Project 5">
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev" href="#constructionCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#constructionCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="furniture-hotel-residential" class="py-5" style="background-color: #343a40;">
+    <div class="container">
+        <h2 class="text-center mb-4 font-weight-bold" style="font-family: 'Georgia', serif; font-size: 36px; letter-spacing: 2px; text-transform: uppercase; color: #e2e0e0;">Furniture Hotel & Residential</h2>
+        <p class="text-center mb-5" style="font-family: 'Arial', sans-serif; font-size: 18px; line-height: 1.8; max-width: 800px; margin-left: auto; margin-right: auto; color: #e2e0e0;">
+            We provide high-quality furniture solutions for hotels and residential properties. Whether you need modern designs for your hotel rooms or durable furniture for your home, we offer stylish, comfortable, and functional options to suit your needs.
+        </p>
+        
+        <div id="furnitureCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/524/228/970/life-interior-home-room-wallpaper-preview.jpg" class="d-block w-100" alt="Furniture Hotel 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.lakdi.com/cdn/shop/articles/hotel-furniture-2.jpg?v=1695879094" class="d-block w-100" alt="Furniture Hotel 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://c0.wallpaperflare.com/preview/48/202/349/photography-of-swimming-pool.jpg" class="d-block w-100" alt="Furniture Hotel 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://wallpaper.dog/large/20650595.jpg" class="d-block w-100" alt="Furniture Hotel 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://c0.wallpaperflare.com/preview/48/202/349/photography-of-swimming-pool.jpg" class="d-block w-100" alt="Furniture Hotel 5">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#furnitureCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#furnitureCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section id="auto-parts" class="py-5" style="background-color: #e2e0e0;">
+    <div class="container">
+        <h2 class="text-center mb-4 font-weight-bold" style="font-family: 'Georgia', serif; font-size: 36px; letter-spacing: 2px; text-transform: uppercase; color: #343a40;">Auto Parts</h2>
+        <p class="text-center mb-5 text-dark" style="font-family: 'Arial', sans-serif; font-size: 18px; line-height: 1.8; max-width: 800px; margin-left: auto; margin-right: auto; color: #343a40;">
+            We provide a wide range of high-quality auto parts for all types of vehicles. Whether you need replacement parts for your car, truck, or other vehicles, we have you covered. Our parts are sourced from trusted manufacturers to ensure durability and performance.
+        </p>
+        
+        <div id="autoPartsCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images6.alphacoders.com/930/930810.jpg" class="d-block w-100" alt="Auto Parts 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://c0.wallpaperflare.com/preview/653/597/245/wheel-caliper-rim-tyre.jpg" class="d-block w-100" alt="Auto Parts 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images7.alphacoders.com/758/758250.jpg" class="d-block w-100" alt="Auto Parts 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.freepik.com/premium-photo/close-up-concept-car-engine-pistons_273081-387.jpg" class="d-block w-100" alt="Auto Parts 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media.gettyimages.com/id/499275840/video/replacing-brake-pads-on-a-car-at-a-workshop.jpg?s=640x640&k=20&c=zeDEUoGCgGnrjUafoOWMRaQFy3QAZ-SqRbPeIDA1Ois=" class="d-block w-100" alt="Auto Parts 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://t3.ftcdn.net/jpg/06/42/15/52/360_F_642155259_wkEIRRSocT0VH4W8E7lneTiywgwJcvFc.jpg" class="d-block w-100" alt="Auto Parts 6">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#autoPartsCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#autoPartsCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="contact-section py-2" id="contact-section" style="background: linear-gradient(to right, #0b0c0c, #403f42);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-white">Contact Us</h2>
+                <form>
+                    <input type="text" class="form-control mb-3" placeholder="Your Name">
+                    <input type="email" class="form-control mb-3" placeholder="Your Email">
+                    <textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h4 class="text-white">Contact Info</h4>
+                <p class="text-white"><i class="fas fa-phone"></i> (0925) 551 0987</p>
+                <p class="text-white"><i class="fas fa-envelope"></i> info.qpssco@gmail.com</p>
+                <p class="text-white"><i class="fas fa-map-marker-alt"></i> 123 Street, Bacolod City, Phillipines</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2025 Penguin Sales & Services Company.</p>
+        <div>
+            <a href="https://www.facebook.com/justinnn02" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
